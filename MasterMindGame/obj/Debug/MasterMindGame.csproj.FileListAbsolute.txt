@@ -1,0 +1,6 @@
+c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\bin\Debug\MasterMindGame.exe.config
+c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\bin\Debug\MasterMindGame.exe
+c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\bin\Debug\MasterMindGame.pdb
+c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.csprojResolveAssemblyReference.cache
+c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.exe
+c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.pdb
