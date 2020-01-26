@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Configuration;
 namespace MasterMindGame
 {
     class CodeMaker
@@ -12,10 +12,12 @@ namespace MasterMindGame
 
         public string VerifyGussedCode(string guess, string code)
         {
+            string value1 = ConfigurationSettings.AppSettings["String1"];
+            string value2 = ConfigurationSettings.AppSettings["String2"];
             string massege = string.Empty;
             if (guess == code)
             {
-                return massege = "BULL, BULL, BULL, BULL";
+                return massege = value2 + ", " + value2 + ", " + value2 + ", " + value2 ;
             }
             for (int i = 0; i < code.Length; i++)
             {
@@ -23,14 +25,14 @@ namespace MasterMindGame
                 {
                     if (code[i] == guess[j] && i == j && code[i]!='*')
                     {
-                        massege += "BULL, ";
+                        massege += value2+", ";
                         code = code.Remove(i, 1).Insert(i, "*");
                         guess = guess.Remove(i, 1).Insert(i, "*");
 
                     }
                     if (code[i] == guess[j] && i != j && code[i]!='*' && guess[j]!='*')
                     {
-                        massege += "COW, ";
+                        massege += value1+", ";
                         code = code.Remove(i, 1).Insert(i, "*");
                         guess = guess.Remove(j, 1).Insert(i, "*");
 
