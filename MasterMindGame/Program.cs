@@ -13,11 +13,11 @@ namespace MasterMindGame
                 CodeBreaker codeBreaker = new CodeBreaker();
                 CodeMaker.codeGeneratorHandler codeGeneratorHandler = codeEngine.CookTheSecretCode;
                 int code = codeMaker.GenerateCode(codeGeneratorHandler);
-
+                Console.WriteLine("Code Generated:");
                 Console.WriteLine(code);
-                
+                Console.WriteLine("Enter The Guess Code:");                
                 string guess=codeBreaker.ValidateCode(Console.ReadLine());
-                Console.WriteLine(codeMaker.VerifyGussedCode(guess, code.ToString()));
+                Console.WriteLine(codeMaker.VerifyGuessedCode(guess, code.ToString()));
             }
             catch (Exception ex)
             {

@@ -4,3 +4,9 @@ c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGam
 c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.csprojResolveAssemblyReference.cache
 c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.exe
 c:\users\amit\documents\visual studio 2013\Projects\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.pdb
+C:\Users\abhay\Source\Repos\MasterMindGame\MasterMindGame\bin\Debug\MasterMindGame.exe.config
+C:\Users\abhay\Source\Repos\MasterMindGame\MasterMindGame\bin\Debug\MasterMindGame.exe
+C:\Users\abhay\Source\Repos\MasterMindGame\MasterMindGame\bin\Debug\MasterMindGame.pdb
+C:\Users\abhay\Source\Repos\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.csprojResolveAssemblyReference.cache
+C:\Users\abhay\Source\Repos\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.exe
+C:\Users\abhay\Source\Repos\MasterMindGame\MasterMindGame\obj\Debug\MasterMindGame.pdb

@@ -10,7 +10,7 @@ namespace MasterMindGame
             return codeGeneratorHandler();
         }
 
-        public string VerifyGussedCode(string guess, string code)
+        public string VerifyGuessedCode(string guess, string code)
         {
             string value1 = ConfigurationSettings.AppSettings["String1"];
             string value2 = ConfigurationSettings.AppSettings["String2"];
