@@ -5,13 +5,11 @@ namespace MasterMindGame
     class CodeBreaker
     {
         public string ValidateCode(string input)
-        {
-            
+        {            
             try
             {
                 if (input.Length == 4)
-                {
-                    
+                {                    
                     return input;
                 }
                 else
@@ -28,10 +26,6 @@ namespace MasterMindGame
             {
                 throw ex;
             }
-        }
-            
-            
-            
-       
+        }                  
     }
 }

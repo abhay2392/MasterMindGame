@@ -18,7 +18,7 @@ namespace MasterMindGame
                 Console.WriteLine(code);
                 Console.WriteLine("Enter The Guess Code:");                
                 string guess=codeBreaker.ValidateCode(Console.ReadLine());
-                Console.WriteLine(codeVerificationHandler(code.ToString(),guess));
+                Console.WriteLine(codeMaker.VerifyGuessedCode(codeVerificationHandler,code.ToString(),guess));
             }
             catch (Exception ex)
             {

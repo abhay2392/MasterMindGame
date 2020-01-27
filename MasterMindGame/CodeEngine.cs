@@ -11,15 +11,12 @@ namespace MasterMindGame
             try
             {
                 Random random = new Random();
-                code = random.Next(1000, 9999);
-                
+                code = random.Next(1000, 9999);                
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
-
-           
+            }        
             
             return code;
         }
