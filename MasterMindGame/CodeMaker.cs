@@ -34,7 +34,7 @@ namespace MasterMindGame
                     {
                         massege += value1+", ";
                         code = code.Remove(i, 1).Insert(i, "*");
-                        guess = guess.Remove(j, 1).Insert(i, "*");
+                        guess = guess.Remove(j, 1).Insert(j, "*");
 
 
                     }
